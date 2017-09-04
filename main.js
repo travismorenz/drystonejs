@@ -3,5 +3,8 @@ $('.grid').drystone({
 });
 $('.grid-other').drystone({
 	item: '.this',
-	xl: 5 
+	xl: 5,
+	onComplete: function() {
+		console.log('onComplete Success');
+	}  
 });

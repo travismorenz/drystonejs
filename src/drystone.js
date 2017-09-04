@@ -1,4 +1,8 @@
 (function($, document, window) {
+/*
+add heightFunc
+add animation option
+*/
 
 
     //Create the defaults
@@ -14,6 +18,7 @@
             md: [992, 2],
             lg: [1200, 3],
             xl: 3,
+            onComplete: function() {}
         };
 
     //Plugin constructor
@@ -31,6 +36,7 @@
             this.registerHandlers();
             this.getValues();
             this.build();
+            this.options.onComplete();
         },
         buildCache: function() {
             this.$grid = $(this.element);
