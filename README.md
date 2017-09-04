@@ -24,4 +24,4 @@ Unlike many other grid plugins, drystone is built entirely with a responsive lay
 
 By default, drystone uses the **Bootstrap v4** mobile first breakpoints. So `xs: [576, 1]`  means that when the window size is <576px, then drystone will arange your grid items in 1 column.
 
-The `xl` option is for everything that is larger than the `lg` breakpoint. So by default, it's everything larger than 1200px.
+The `xl` option is for every screen width that is larger than the `lg` breakpoint, which by default is 1200px.
