@@ -8,9 +8,9 @@ $('.grid').drystone();
 
 //Options
 $('.grid').drystone({
-	//Defaults
-	item: '.grid-item', //This is the selector for your grid items
-	xs: [576, 1], 
+    //Defaults
+    item: '.grid-item', //This is the selector for your grid items
+    xs: [576, 1], 
     sm: [768, 2], //see below for explanation
     md: [992, 2],
     lg: [1200, 3],
