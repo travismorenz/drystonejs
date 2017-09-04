@@ -1,15 +1,15 @@
 # Drystone.js
 A simple responsive grid plugin for jQuery
 
-##The Basics
+## The Basics
 ```javascript
-//call the drystone method on your grid element
+//Call the drystone method on your grid element
 $('.grid').drystone();
 
-//with options
+//Options
 $('.grid').drystone({
-	//the default options
-	item: '.grid-item', //this is the selector for your grid items
+	//Defaults
+	item: '.grid-item', //This is the selector for your grid items
 	xs: [576, 1], 
     sm: [768, 2], //see below for explanation
     md: [992, 2],
@@ -22,4 +22,4 @@ Unlike many other grid plugins, drystone is built entirely with a responsive lay
 
 By default, drystone uses the **Bootstrap 4** mobile first breakpoints. So `xs: [576, 1]`  means that when the window size is <576px, then drystone will arange your grid items in 1 column.
 
-The `xl` option is for everything that is larger than the `lg` breakpoint. So by default, it's everything larger than 1200px;
+The `xl` option is for everything that is larger than the `lg` breakpoint. So by default, it's everything larger than 1200px.
