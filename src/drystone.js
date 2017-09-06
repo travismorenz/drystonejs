@@ -1,8 +1,8 @@
 (function($, document, window) {
-/*
-add heightFunc
-add animation option
-*/
+    /*
+    add heightFunc
+    add animation option
+    */
 
 
     //Create the defaults
@@ -18,6 +18,7 @@ add animation option
             md: [992, 2],
             lg: [1200, 3],
             xl: 3,
+            resize: true,
             onComplete: function() {}
         };
 
@@ -84,10 +85,12 @@ add animation option
         registerHandlers: function() {
             var self = this;
             //Recalculate values and rebuild the grid on window resize
-            $(window).resize(function() {
-                self.getValues();
-                self.build();
-            });
+            if (self.options.resize) {
+                $(window).resize(function() {
+                    self.getValues();
+                    self.build();
+                });
+            }
         },
         build: function() {
             //Assign this to another variable to solve scoping problems
