@@ -1,0 +1,94 @@
+[
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "documentation.html",
+        "sha": "d302ca31629b8dd5324bb8edbd5e4f5dff56a087"
+      }
+    ],
+    "outputSha": "f56c023c5b264a1c0b9f8dc53f155728e128c8eb",
+    "input": "documentation.html",
+    "output": [
+      "documentation.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "index.html",
+        "sha": "e86739a95209f4715437cef6472d73704451e0fb"
+      }
+    ],
+    "outputSha": "87b6eba34574fcbb7a916886ca7724a8379e9f8c",
+    "input": "index.html",
+    "output": [
+      "index.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "scripts\\drystone-mod.js",
+        "sha": "6476de378ec2dfc53cded7be19c48a55fd9dd3c6"
+      }
+    ],
+    "outputSha": "35645b416a98146db35d97b261350110a6a5bd44",
+    "input": "scripts\\drystone-mod.js",
+    "output": [
+      "scripts\\drystone-mod.js.map",
+      "scripts\\drystone-mod.js"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "scripts\\main.js",
+        "sha": "3f1f1175a51858fe3d24b9c4bca078822b2ec73c"
+      }
+    ],
+    "outputSha": "1e20e7aa2ef6f6b24c9aff93a4180685f0c5f505",
+    "input": "scripts\\main.js",
+    "output": [
+      "scripts\\main.js.map",
+      "scripts\\main.js"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "styles\\font.css",
+        "sha": "8840e7be71c53840daf415cab9ab26f9ad124e0e"
+      }
+    ],
+    "outputSha": "aaf1e77ba386240a4b86600484875b0c3d20eefd",
+    "input": "styles\\font.css",
+    "output": [
+      "styles\\font.css.map",
+      "styles\\font.css"
+    ]
+  },
+  {
+    "type": "node-sass@4.5.3::map::minify",
+    "inputSha": [
+      {
+        "file": "styles\\main.scss",
+        "sha": "7496e52256e600c07a41284248ba71a9fb19a2e3"
+      },
+      {
+        "file": "styles\\main.scss",
+        "sha": "7496e52256e600c07a41284248ba71a9fb19a2e3"
+      }
+    ],
+    "outputSha": "94ba99165eaf0ef04b0dbbe8fdb153c8424f7d2c",
+    "input": "styles\\main.scss",
+    "output": [
+      "styles\\main.css.map",
+      "styles\\main.css"
+    ]
+  }
+]
